@@ -1,15 +1,12 @@
 import React from "react";
-import successDelete from "../utils/successDelete.svg";
+import sucessDelete from "../utils/successDelete.svg";
 
 const SuccessDelete = () => {
-    return ( <
-        div className = "popup" >
-        <
-        img src = { successDelete }
-        alt = "successDelete" / >
-        <
-        /div>
-    );
+  return (
+    <div className="popup">
+      <img src={sucessDelete} alt="SucessDelete" />
+    </div>
+  );
 };
 
 export default SuccessDelete;
